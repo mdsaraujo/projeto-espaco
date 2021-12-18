@@ -161,7 +161,7 @@ div.video > iframe {
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: silver;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
@@ -169,23 +169,24 @@ aside {
 
 details {
     padding: 7px;
-    color: var(--cor5);
+    color: #271d01;
     display: block;
     
 }
 
 details > img {
+    display: inline;
     padding-top: 20px;
     width: 200px;
     
 }
 
-details p {
-    margin: 0px;
+details > p {
+    color: #271d01;
 }
 
 summary {
-    background-color: var(--cor4);
+    background-color: rgb(114, 114, 114);
     border-radius: 2px;
     border: 50px;
 }
