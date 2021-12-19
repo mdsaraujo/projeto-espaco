@@ -7,6 +7,40 @@
     <title>O sistema solar</title>
     <link rel="stylesheet" href="../../estilo/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <style>
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #fadcdc;
+            padding: 5px;
+        }
+        tr, td {
+
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        td.num {
+            text-align: right;
+            
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #fadcdc;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -39,6 +73,49 @@
             <p>
                 Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem ao deus romano da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada. Marte é um planeta rochoso com uma atmosfera fina, com características de superfície que lembram tanto as crateras de impacto da Lua quanto vulcões, vales, desertos e calotas polares da Terra. O período de rotação e os ciclos sazonais de Marte são também semelhantes aos da Terra, assim como é a inclinação que produz as suas estações do ano. Marte é o lar do Monte Olimpo, a segunda montanha mais alta conhecida no Sistema Solar (a mais alta em um planeta), e do Valles Marineris, um desfiladeiro gigantesco. A suave Bacia Polar Norte, no hemisfério norte marciano, cobre cerca de 40% do planeta e pode ser uma enorme marca de impacto. Marte tem duas luas conhecidas, Fobos e Deimos, que são pequenas e de forma irregular. Estas luas podem ser asteroides capturados, semelhante ao 5261 Eureka, um asteroide troiano marciano.
             </p>
+
+            <table>
+                <caption>Caracteristicas fisicas</caption>
+                <tbody>
+                    <tr>
+                        <td>Diâmetro equatorial</td>
+                        <td class="num">6792,4 km</td>
+                    </tr>
+                    <tr>
+                        <td>Área da superfície</td>
+                        <td class="num">144.798.500 km²</td>
+                    </tr>
+                    <tr>
+                        <td>Volume</td>
+                        <td  class="num">1,6318×1011 km³</td>
+                    </tr>
+                    <tr>
+                        <td>Massa</td>
+                        <td class="num">6,4174×1023 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Densidade média</td>
+                        <td class="num">3,933 g/cm³</td>
+                    </tr>
+                    <tr>
+                        <td>Gravidade superficial</td>
+                        <td class="num">3,711 m/s² g</td>
+                    </tr>
+                    <tr>
+                        <td>Período de rotação</td>
+                        <td class="num">24 h 37 min 22 s</td>
+                    </tr>
+                    <tr>
+                        <td>Temperatura</td>
+                        <td class="num">
+                            média: −63 ºC <br>
+                            mínima: −143 ºC <br>
+                            máxima: 35 ºC
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
             <img src="marte02.jpg" class="pequena" alt="astronauta">
             <p>
                 Marte está sendo explorado por oito espaçonaves atualmente: seis em órbita — Mars Odyssey, Mars Express, Mars Reconnaissance Orbiter, Mars Atmosphere and Volatile Evolution Missile – MAVEN, Mars Orbiter Mission e ExoMars Trace Gas Orbiter — e duas na superfície — Mars Science Laboratory Curiosity, Perseverance e o rover chinês Zhurong, como também o lander InSight. Entre as espaçonaves desativadas que estão na superfície marciana estão a sonda Spirit e várias outras sondas e rovers, como a Phoenix, que completou sua missão em 2008, e o Opportunity.

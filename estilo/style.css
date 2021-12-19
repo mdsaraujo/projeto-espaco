@@ -175,9 +175,10 @@ details {
 }
 
 details > img {
-    display: inline-flex;
+    display: block;
     padding-top: 20px;
     width: 200px;
+    margin: auto;
     
 }
 
@@ -186,7 +187,7 @@ details > p {
 }
 
 summary {
-    background-color: rgb(114, 114, 114);
+    background-image: linear-gradient(to right, rgb(151, 151, 151), transparent);
     border-radius: 2px;
     border: 50px;
 }
