@@ -175,7 +175,7 @@ details {
 }
 
 details > img {
-    display: inline;
+    display: inline-flex;
     padding-top: 20px;
     width: 200px;
     
