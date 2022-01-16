@@ -175,15 +175,19 @@ details {
 }
 
 details > img {
-    display: block;
-    padding-top: 20px;
     width: 200px;
-    margin: auto;
-    
 }
 
 details > p {
     color: #271d01;
+}
+
+.posicao {
+    display: inline;
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 summary {
